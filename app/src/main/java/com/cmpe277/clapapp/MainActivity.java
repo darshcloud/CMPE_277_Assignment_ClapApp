@@ -46,9 +46,9 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         float distance = sensorEvent.values[0];
         if(distance <= 5){
             mMediaPlayer.start();
-            clapText.setText("Clapping has Started!!!");
+            clapText.setText("Clapping Started!!!");
         }else{
-            clapText.setText("Clapping has Stopped!!!");
+            clapText.setText("Clapping Stopped!!!");
         }
     }
 
